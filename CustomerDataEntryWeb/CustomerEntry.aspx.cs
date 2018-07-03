@@ -17,7 +17,7 @@ namespace CustomerDataEntryWeb
 
         private void LoadCustomers()
         {
-            ClsSqlConnection obj = new ClsSqlConnection();
+            ClsSqlConnection obj = new ClsSqlConnection(); 
             GridCustomers.DataSource = obj.getCustomers();
             GridCustomers.DataBind();
         }
